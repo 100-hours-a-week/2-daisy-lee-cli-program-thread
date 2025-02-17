@@ -1,6 +1,5 @@
 package prac.injury;
 
-
 import static prac.human.Patient.patient;
 
 public class InternalWound extends Injury {

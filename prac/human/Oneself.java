@@ -1,7 +1,5 @@
 package prac.human;
 
-import static prac.human.Patient.patient;
-
 public class Oneself extends Healer{
     public Oneself(String type, int cost, int minProbability, int maxProbability) {
         super(type, cost, minProbability, maxProbability);

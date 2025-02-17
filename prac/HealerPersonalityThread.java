@@ -1,7 +1,6 @@
 package prac;
 
 import prac.human.ExpertPersonality;
-import prac.human.Intern;
 import prac.human.InternPersonality;
 import prac.human.ResidentPersonality;
 

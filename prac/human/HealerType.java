@@ -39,19 +39,4 @@ public enum HealerType {
         return healerNumber;
     }
 
-    public String getHealerType() {
-        return healerType;
-    }
-
-    public int getHealerCost() {
-        return healerCost;
-    }
-
-    public int getHealerMinProbability() {
-        return healerMinProbability;
-    }
-
-    public int getHealerMaxProbability() {
-        return healerMaxProbability;
-    }
 }

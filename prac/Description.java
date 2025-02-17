@@ -292,40 +292,4 @@ public class Description {
         System.out.print("🤨 : ");
     }
 
-    /** 미구현 내용 **/
-    /*public void askPatient() {
-            doctorSmile();
-            System.out.println("안녕하세요. \'" + patient.getName() + "\' 님, 치료에 앞서 진단을 할 예정입니다.");
-            System.out.println("     제가 하는 질문에 Y 또는 N으로 \'정직하게\' 대답해주세요.");
-            injury.questions();
-            if(injury.isAllNo()) {
-                expelPatient();
-            }
-     }*/
-
-    /*private void expelPatient() {
-        String expelTexts[] = {
-                ". ", ". ", "?",
-                "     환자분, 병원은 장난이 아닙니다.",
-                "     그렇게 아프시지 않은가 본데, 다른 환자분들 진료가 더 급한 것 같네요.",
-                "     엄연한 업무 방해죄 입니다.",
-                "     저희 병원에서 나가주세요. 😡"
-        };
-        doctorFrown();
-        try {
-            for(int i = 0; i < 3; i++) {    // ..? 출력하기 위한.. for문
-                System.out.print(expelTexts[i]);
-                Thread.sleep(400);
-                System.out.flush();
-            }
-            System.out.println();
-            for(int i = 3; i < expelTexts.length; i++) {    // 문장을 출력하기 위한 for문
-                System.out.println(expelTexts[i]);
-                Thread.sleep(1000);
-                System.out.flush();
-            }
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-    }*/
 }
